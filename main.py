@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 
 app = FastAPI()
-
+# uvicorn main:app --host localhost --port 8000
 
 @app.get("/")
 async def root():
